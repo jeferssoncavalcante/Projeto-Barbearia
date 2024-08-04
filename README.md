@@ -26,9 +26,9 @@ Projeto desenvolvido durante a **Full Stack Week - Edição 5**, semana de desen
 
 ## ⚙️ Funcionalidades 
 
-- [] Agendar Serviços
-- [] Cancelar Serviços
-- [] Email de Confirmação
+- [ ] Agendar Serviços
+- [ ] Cancelar Serviços
+- [ ] Email de Confirmação
 
 ---
 
@@ -51,3 +51,5 @@ As seguintes ferramentas serão usadas na construção do projeto:
 - **ShadCN**
 - **TypeScript**
 - **JavaScript**
+
+---
