@@ -20,6 +20,34 @@
 
 ## 💻 Sobre o projeto
 
-Projeto desenvolvido durante a **Full Stack Week - Edição 5** semana de desenvolvimento de software oferecida pelo [Felipe Rocha](https://github.com/felipemotarocha) que acontecerá do dia **05/08 a 12/08**.
+Projeto desenvolvido durante a **Full Stack Week - Edição 5**, semana de desenvolvimento de software oferecida pelo [Felipe Rocha](https://github.com/felipemotarocha) que acontecerá do dia **05/08 a 12/08**.
 
 ---
+
+## ⚙️ Funcionalidades 
+
+- [] Agendar Serviços
+- [] Cancelar Serviços
+- [] Email de Confirmação
+
+---
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas serão usadas na construção do projeto:
+
+- **Next.js**
+- **React.js**
+- **PostgreSQL**
+- **Tailwind CSS**
+- **Prisma**
+- **Node.js**
+- **ShadCN**
+- **TypeScript**
+- **JavaScript**
