@@ -54,10 +54,13 @@ const Home = async () => {
               </div>
             </CardContent>
           </Card>
+
           <h2 className="text-xs font-bold uppercase text-gray-400 mb-3 mt-6">recomendados</h2>
-          {barbershops.map((barbershop) => (
-            <BarbershopItem key={barbershop.id} barbershop={barbershop}/>
-          ))}
+          <div className="flex gap-4 overflow-auto [&::-webkit-scrollbar]:hidden">
+              {barbershops.map((barbershop) => (
+                <BarbershopItem key={barbershop.id} barbershop={barbershop}/>
+              ))}
+          </div>
         </div>
     </div>
   );
