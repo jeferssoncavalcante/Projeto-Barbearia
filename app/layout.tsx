@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Darker_Grotesque, Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "./_components/footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="dark">{children}</body>
+      <footer className="dark"><Footer/></footer>
     </html>
   );
 }
