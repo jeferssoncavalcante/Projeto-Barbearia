@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import ServiceItem from "@/app/_components/service-item";
-
+import PhoneItem from "@/app/_components/phone-item";
 
 interface BarbershopsPageProps {
     params: {
@@ -63,13 +63,21 @@ if (!barbershop){
                 <p className="text-justify text-sm">{barbershop?.description}</p>
             </div>
 
-            <div className="p-5 space-y-3">
+            {/*SERVICES*/}
+            <div className="p-5 space-y-3 border-b border-solid">
                 <h2 className="text-xs font-bold uppercase text-gray-400">serviços</h2>
                 <div className="space-y-3">
                     {barbershop.services.map((service) => 
                         <ServiceItem key={service.id} service={service}/>
                     )}
                 </div>
+            </div>
+            
+            {/*CONTACTS*/}
+            <div className="p-5 space-y-3">
+                {barbershop.phones.map(phone => (
+                    <PhoneItem key={phone} phone={phone}/>
+                ))}
             </div>
         </div>
      );
