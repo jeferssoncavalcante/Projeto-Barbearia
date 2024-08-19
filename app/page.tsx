@@ -1,7 +1,5 @@
-import { Input } from "./_components/ui/input";
+import Search from "./_components/search";
 import Header from "./_components/header"
-import { Button } from "./_components/ui/button";
-import { SearchIcon } from "lucide-react";
 import Image from "next/image";
 import { db } from "./_lib/prisma";
 import BarbershopItem from "./_components/barbershop-items";
@@ -26,15 +24,10 @@ const Home = async () => {
           <p>Quarta-Feira, 07 de Agosto.</p>
 
           {/*SEARCH*/}
-          <div className="flex items-center gap-2 mt-6">
-            <Input placeholder="Faça sua busca..."/>
-            <Button>
-              <SearchIcon/>
-            </Button>
-          </div>
+          <div className="mt-6"><Search/></div>
 
           {/*QUICK SEARCH*/}
-          <QuickSearch/>     
+          <QuickSearch/>   
 
           {/*BANNER*/}
           <div className="relative h-[150px] w-full mt-6 ">

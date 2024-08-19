@@ -36,7 +36,7 @@ if (!barbershop){
                 <Image alt={barbershop.name} src={barbershop.imageUrl} fill className="object-cover"/>
 
                 <Button size="icon" variant="secondary" className="absolute left-4 top-4" asChild>
-                    <Link href="/">
+                    <Link href="./">
                         <ChevronLeftIcon/>
                     </Link>
                 </Button>
