@@ -15,8 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="dark">{children} <Toaster/></body>
-      <footer className="dark"><Footer/></footer>
+      <body className="dark">{children} 
+        <Toaster/>
+        <Footer/>
+      </body>
     </html>
   );
 }
