@@ -1,13 +1,10 @@
-import { BarbershopService } from "@prisma/client";
+import { ItemProps } from "../_lib/types";
 import Image from "next/image";
-import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
+import CalendarItem from "./calendario-item";
 
-interface ServiceItemProps {
-    service: BarbershopService
-}
 
-const ServiceItem = ({ service }: ServiceItemProps) => {
+const ServiceItem: React.FC<ItemProps> = ({ service, barbershop }) => {
     return ( 
         <Card>
             <CardContent className="flex items-center gap-2 p-3">
@@ -26,7 +23,7 @@ const ServiceItem = ({ service }: ServiceItemProps) => {
                                 currency: "BRL",
                             }).format(Number(service.price))}
                         </p>
-                        <Button variant="secondary" size="sm">Reservar</Button>
+                        <CalendarItem barbershop={barbershop} service={service}/>
                     </div>
                 </div>
             </CardContent>

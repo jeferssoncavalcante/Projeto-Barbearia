@@ -36,7 +36,7 @@ if (!barbershop){
                 <Image alt={barbershop.name} src={barbershop.imageUrl} fill className="object-cover"/>
 
                 <Button size="icon" variant="secondary" className="absolute left-4 top-4" asChild>
-                    <Link href="./">
+                    <Link href="/">
                         <ChevronLeftIcon/>
                     </Link>
                 </Button>
@@ -75,7 +75,7 @@ if (!barbershop){
                 <h2 className="text-xs font-bold uppercase text-gray-400">serviços</h2>
                 <div className="space-y-3">
                     {barbershop.services.map((service) => 
-                        <ServiceItem key={service.id} service={service}/>
+                        <ServiceItem key={service.id} service={service} barbershop={barbershop}/>
                     )}
                 </div>
             </div>
