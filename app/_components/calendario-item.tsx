@@ -94,7 +94,6 @@ const CalendarItem: React.FC<ItemProps> = ({ service, barbershop }) => {
 
             await createBooking({
                 serviceId: service.id,
-                userId: (data?.user as any).id,
                 date: newDate,
             })
             toast.success("Reserva Criada com Sucesso!")
