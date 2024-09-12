@@ -10,10 +10,9 @@
 <p align="center">
     <a href="#-sobre-o-projeto">Sobre</a> •
     <a href="#-funcionalidades">Funcionalidades</a> •
-    <a href="#-layout">Layout</a> • 
-    <a href="#-tecnologias">Tecnologias</a> • 
+    <a href="#-tecnologias">Tecnologias</a> •
+    <a href="#-layout">Layout</a> •  
     <a href="#-como-executar-o-projeto">Como executar</a> • 
-    <a href="#-contribuidores">Contribuidores</a> • 
     <a href="#-autor">Autor</a> • 
     <a href="#user-content--licença">Licença</a>
 </p>
@@ -26,18 +25,46 @@ Projeto desenvolvido durante a **Full Stack Week - Edição 5**, semana de desen
 
 ## ⚙️ Funcionalidades 
 
+- [x] Login com Google
 - [x] Agendar Serviços
 - [ ] Cancelar Serviços
 - [ ] Email de Confirmação
 
 ---
 
-## Layout
+## 🛠 Tecnologias
 
+As seguintes ferramentas serão usadas na construção do projeto:
+
+- **Next.js**
+- **React.js**
+- **PostgreSQL**
+- **Tailwind CSS**
+- **Prisma**
+- **Node.js**
+- **ShadCN**
+- **TypeScript**
+- **JavaScript**
 
 ---
 
-## :electron: Como executar
+## Layout
+
+<div>
+  <img src="images/tela-01.png" width="600px" height="600px" alt="Screenshot do projeto">
+</div>
+
+<div>
+  <img src="images/tela-02.png" width="600px" height="" alt="Screenshot do projeto">
+</div>
+
+<div>
+  <img src="images/tela-03.png" width="600px" height="" alt="Screenshot do projeto">
+</div>
+
+---
+
+## 🛠 Como executar
 
 **Pré-requisitos:**
 
@@ -77,18 +104,16 @@ npx prisma migrate dev
 npm run dev
 ```
 
-## 🛠 Tecnologias
+---
 
-As seguintes ferramentas serão usadas na construção do projeto:
+## Autor
 
-- **Next.js**
-- **React.js**
-- **PostgreSQL**
-- **Tailwind CSS**
-- **Prisma**
-- **Node.js**
-- **ShadCN**
-- **TypeScript**
-- **JavaScript**
+Projeto oferecido pelo [Felipe Rocha](https://github.com/felipemotarocha), durante a **Full Stack Week - Edição 5**.
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 ---
