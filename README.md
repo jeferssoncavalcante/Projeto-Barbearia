@@ -11,8 +11,8 @@
     <a href="#-sobre-o-projeto">Sobre</a> •
     <a href="#-funcionalidades">Funcionalidades</a> •
     <a href="#-layout">Layout</a> • 
-    <a href="#-como-executar-o-projeto">Como executar</a> • 
     <a href="#-tecnologias">Tecnologias</a> • 
+    <a href="#-como-executar-o-projeto">Como executar</a> • 
     <a href="#-contribuidores">Contribuidores</a> • 
     <a href="#-autor">Autor</a> • 
     <a href="#user-content--licença">Licença</a>
@@ -26,17 +26,56 @@ Projeto desenvolvido durante a **Full Stack Week - Edição 5**, semana de desen
 
 ## ⚙️ Funcionalidades 
 
-- [ ] Agendar Serviços
+- [x] Agendar Serviços
 - [ ] Cancelar Serviços
 - [ ] Email de Confirmação
 
 ---
 
-### Pré-requisitos
+## Layout
+
+
+---
+
+## :electron: Como executar
+
+**Pré-requisitos:**
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+[Git](https://git-scm.com), [Node.js e npm (ou yarn)](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+**Clonar o repositório:**
+
+```bash
+git clone https://github.com/jeferssoncavalcante/Projeto-Barbearia.git
+```
+
+**Instalar Dependências:**
+
+```bash
+cd seu-repositorio
+
+npm install
+```
+
+**Obs: Configure seu banco de dados e seu arquivo .env para serem executados em conjunto com prisma.**
+
+***Instale e execute o prisma:***
+
+```bash
+npm install --save-dev prisma
+
+npx prisma init
+
+npx prisma migrate dev
+```
+
+***Execute o Projeto:***
+
+```bash
+npm run dev
+```
 
 ## 🛠 Tecnologias
 
